@@ -1,0 +1,69 @@
+.cover {
+    background-image: url(../img/club.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    z-index: -999;
+}
+.wrap{
+    height:100vh ;
+    align-items: center; 
+    overflow: hidden;
+}
+.item{
+    width: 100vw;
+    padding: 0%;
+    display: flex;
+}
+.item .pic{
+    object-fit: cover;
+}
+.item .pic img{
+    height: 100%;
+}
+.item .txt{
+    font-weight:bold;
+    box-sizing: border-box;
+    display: flex;
+    padding: 2rem;
+    flex-flow: column;
+    justify-content: center ;
+}
+.item .txt-1{
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.news-article-img-box{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.news-article-img {
+    width: max-content;
+    height: max-content;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s linear;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    /* color: #F8F8F6;
+    background-color: #FABD67; */
+    color: #3d446d;
+    background-color: #f8f8f6;
+}
+.card-border{
+    border:.3rem #2f2c40 solid;
+}
+.card-title{
+    color:#BF4826;
+    font-weight: 600;
+}

@@ -1,0 +1,159 @@
+.header{
+    background-color: #3d446d;
+    color: #F8F8F6;
+}
+.logo {
+    font-family: Noto Sans, sans-serif, 'Sawarabi Mincho', sans-serif;;
+}
+body{
+    font-family: Noto Sans TC, sans-serif,Montserrat,sans-serif;
+}
+footer{
+    background-color: #3d446d;
+    color: #F8F8F6;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: .8rem;
+}
+footer a {
+    color: #F8F8F6;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #FFEA70;
+    text-decoration: none;
+}
+nav a{
+    color: #F8F8F6;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #7DB8BF;
+    text-decoration: none;
+}
+a{
+    text-decoration:none;
+    text-decoration: none;
+}
+.a-col-d{
+    color: #3d446d;
+    text-decoration: none;
+}
+.a-col{
+    color: #F8F8F6;
+    text-decoration: none;
+}
+.a-col:hover{
+    color: #7DB9DE;
+    text-decoration: none;
+}
+.bg{
+    background-color: #F8F8F6;
+    /* background-image: url(../img/3.jpg); */
+}
+.bg-d{
+    background-color: #3d446d;
+}
+.bg-r{
+    background-color: #EE8181;
+}
+.bg-b{
+    background-color: #7DB8BF;
+}
+.bg-l{
+    background-color: rgba(255,255,255,0.2);
+}
+.bg-lg{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.bg-t{
+    background-color: #3d446d;
+}
+.bg-type{
+    background-color: #C7575C;
+}
+.bg-p{
+    background: url(../img/bg123.jpg);
+    background-attachment: fixed;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-in{
+    background: url(../img/c4.jpg);
+    background-attachment: fixed;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dark{
+    color: #3d446d;
+}
+.light{
+    color:#eee7dd;
+}
+.c0{
+    color:#F8F8F6;
+}
+.c1{
+    color: #DFCFB8;
+}
+.c2{
+    color: #E5B48A;
+}
+.c3{
+    color:#BF4826;
+}
+table thead{
+    text-align: center;
+}
+.box{
+    height: 76.8px;
+}
+
+@media (max-width: 882px){
+    .box{
+        height: 137.6px;
+    }
+}
+@media (max-width: 500px){
+    .box{
+        height: 200px;
+    }
+}
+@media (max-width: 364px){
+    .box{
+        height: 260px;
+    }
+}
+
+.button-c{
+    border-radius: 3rem;
+    background-color: #eee7dd;
+    color:#3d446d;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.button-c:hover{
+    background-color: #BF4826;
+    color:#F8F8F6;
+}
+label strong{
+    color:#2f2c40;
+}
+
+.button-c1{
+    border-radius: 3rem;
+    background-color: #3d446d;
+    color:#eee7dd;
+    font-weight: bold;
+}
+.button-c1:hover{
+    background-color: #BF4826;
+    color:#F8F8F6;
+}
+.e-button{
+    width: 8rem;
+    height: 3rem;
+    font-size: large;
+}

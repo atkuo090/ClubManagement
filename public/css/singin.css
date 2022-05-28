@@ -1,0 +1,81 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/signin.jpg') center center fixed no-repeat;
+    background-size: cover;
+}
+.flex{
+    
+    display:flex;
+    justify-content:center;
+    width:60vw;
+    height:auto;
+    
+    background-color:rgba(255, 255, 255, 0.418); 
+    margin: 0 auto;
+    margin-top: 10vw;
+  }
+
+  .flex button{
+      height: 5vh;width: 10vw ;
+  }
+#forform{
+    
+    width:50vh;
+    height: auto;
+}
+
+*{
+    color:#2f2c40 ;
+}
+@media (max-width: .98px)and(min-width: 780.98px) 
+ { 
+    .flex{
+        width:100vw;
+        margin-left: 0;
+        margin-right: 0;
+        overflow-x: hidden;
+    }
+   
+    .flex button{
+        width: 60vw ;
+        
+    }
+
+}
+@media (min-width: 500px)and (max-width: 800.98px)  { 
+    .flex{
+        width:100vw;
+        margin-left: 0;
+        overflow-x: hidden;
+    }
+    .flex button{
+
+        width: 45vw ;
+        height: auto;
+        
+    }
+
+   
+}
+@media (max-width: 576px) { 
+    .flex{
+        width:100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .flex button{
+     
+       
+        width: 60vw ;
+        height: auto;
+    }
+}
+
+
+
+
+
+
